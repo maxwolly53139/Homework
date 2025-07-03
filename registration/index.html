@@ -4,35 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<body style="background-color: rgb(49, 48, 48); display: flex;justify-content: center;">
-  <div style="display: flex; flex-direction: column; align-items: center; background-color: #fff;width: 500px; height: 656px;">
+<!-- main div -->
+  
+<div class="main_div">
+
+<!-- close button -->
         <div>
           <span>
-            <a href="closed.html" style="display: flex;justify-content: flex-end; margin-left: 469px; margin-top: 13px; margin-right: 13px;">
+            <a href="closed.html">
               <img src="./img_index/X.png" alt="X">
             </a>
           </span>
         </div>
-    <div>
-      <h1>Login | <span style="color: #46A358;">Register</span></h1>
+
+<!-- close button end -->
+
+<!-- login register -->
+
+    <div class="log_reg">
+      <h1>Login  
+        <span>|</span>
+        <span id="reg_span">Register</span>
+      </h1>
       <p>Enter your login and password to register.</p>
     </div>
-    <form style="display: flex; flex-direction: column; align-items: center;">
-      <input type="text" placeholder="Username" required style="margin-top: 16px; width: 100%; padding: 10px" />
-      <input type="email" placeholder="Enter your email address" required style="margin-top: 16px; width: 100%; padding: 10px" />
-      <input type="password" placeholder="Password" required  style="margin-top: 16px; width: 100%; padding: 10px"/>
-      <input type="password" placeholder="Confirm Password" required style="margin-top: 16px; width: 100%; padding: 10px"/>
-      <button type="submit" style="border-radius: 5px; background-color: #46A358; color: #fff; font-weight: 700; padding: 16px 118px; border: 0px; margin-top: 41px;" >Register</button>
+
+<!-- login resgister end -->
+
+<!-- form -->
+
+    <form>
+      <input type="text" placeholder="Username" required/>
+      <input type="email" placeholder="Enter your email address" required/>
+      <input type="password" placeholder="Password" required/>
+      <input type="password" placeholder="Confirm Password" required/>
+      <button class="submit_button" type="submit">Register</button>
     </form>
-    <div style="margin: 20px 0px;">Or register with</div>
-    <button style="display: flex; flex-direction: column; align-items: center;"><img src="./img_index/google 1.svg" alt="Google icon"  />
+
+<!-- form end -->
+    
+<!-- or register with -->
+
+    <div class="or_register_with">Or register with</div>
+    
+    <!-- google and facebook buttons -->
+
+    <div class="google_facebook_buttons">
+      <button><img src="./img_index/google 1.svg" alt="Google icon"  />
       Continue with Google
-    </button>
-    <button style="display: flex; flex-direction: column; align-items: center;"><img src="./img_index/facebook 1.svg" alt="Facebook icon" />
+      </button>
+      <button><img src="./img_index/facebook 1.svg" alt="Facebook icon" />
       Continue with Facebook
-    </button>
+      </button>
+    </div>
+
+    <!-- or register with end -->
+
   </div>
+
+  <!-- main div end -->
+
 </body>
 </html>

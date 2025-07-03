@@ -1,0 +1,73 @@
+/* body */
+body {
+    background-color: rgb(49, 48, 48);
+     display: flex;
+     justify-content: center;
+}
+
+/* main div */
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+    height: 656px;
+}
+
+/* close button  */
+span > a {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 469px;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+/* login register */
+#reg_span {
+    color: #46A358;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type='text']{
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px
+}
+input[type='email']{
+    margin-top: 16px;
+    width: 100%;
+    padding: 10px
+}
+input[type='password']{
+    margin-top: 16px; width: 100%; padding: 10px
+}
+.submit_button{
+    border-radius: 5px;
+    background-color: #46A358;
+    color: #fff;
+    font-weight: 700;
+    padding: 16px 118px;
+    border: 0px;
+    margin-top: 41px;
+}
+
+/* or register with */
+.or_register_with{
+    margin: 20px 0px;
+}
+
+/* google and facebook buttons */
+.google_facebook_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+
