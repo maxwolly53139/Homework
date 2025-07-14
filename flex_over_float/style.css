@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('./fonts/CeraPro-Light.eot');
+    src: url('./fonts/CeraPro/CeraPro-Light.eot#iefix') format('embedded-opentype'),
+         url('./fonts/CeraPro/CeraPro-Light.woff2') format('woff2'),
+         url('./fonts/CeraPro/CeraPro-Light.woff') format('woff'),
+         url('./fonts/CeraPro/CeraPro-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('./fonts/CeraPro/CeraPro-Medium.eot');
+    src: url('./fonts/CeraPro/CeraPro-Medium.eot#iefix') format('embedded-opentype'),
+         url('./fonts/CeraPro/CeraPro-Medium.woff2') format('woff2'),
+         url('./fonts/CeraPro/CeraPro-Medium.woff') format('woff'),
+         url('./fonts/CeraPro/CeraPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('./fonts/CeraPro/CeraPro-Black.eot');
+    src: url('./fonts/CeraPro/CeraPro-Black.eot#iefix') format('embedded-opentype'),
+         url('./fonts/CeraPro/CeraPro-Black.woff2') format('woff2'),
+         url('./fonts/CeraPro/CeraPro-Black.woff') format('woff'),
+         url('./fonts/CeraPro/CeraPro-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+.main{
+    
+    display: flex;
+    padding: 171px 109px 207px;
+}
+
+.left_position{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories_list_container{
+    display: flex;
+    flex-direction: column;
+    padding: 14px 186px 377px 30px;
+    margin-left: 29px;
+    max-width: 310px;
+    min-width: 232px;
+
+}
+
+.list_header{
+    color: #3D3D3D;
+    font-family: 'Cera Pro';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 88.889% */
+}
+
+.categories_list{
+    color: #3D3D3D;
+    font-family: 'Cera Pro';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.categories_list_active{
+    color: #46A358;
+    font-family: 'Cera Pro';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+}
+
+.content_sort_container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sort_by{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 838px;
+    max-width: 838px;
+    max-height: 23px;
+    
+}
+
+.list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.active_li{
+    color: #46A358;
+    font-family: 'Cera Pro';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    border-bottom: solid 2px #46a358;
+    padding-bottom: 2px;
+    
+}
+
+.list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 7px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.list_item_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 70px 33px;
+    max-width: 840px;
+    padding-top: 31px;
+}
+
+.card_product{
+    display: flex;
+    flex-direction: column;
+    min-width: 224px;
+    min-height: 350px;
+    max-width: 258px;
+    max-height: 350px;
+    gap: 31px;
+}
+
+
+.img_product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_position{
+max-width: 250px;
+}
+
+.card_name{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.price{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 88.889% */
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.page_numbers{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.page_number_style{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px; /* 88.889% */
+    padding: 10px 13px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+}
+
+.page_number_style_active{
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 88.889% */
+    padding: 10px 13px;
+    border-radius: 4px;
+    background: #46A358;
+}
+
+
+
